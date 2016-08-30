@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "removeComments": true,
+        "noEmitOnError": false,
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./**/*.d.ts",
+        "!./node_modules/**/*",
+        "./node_modules/typescript/lib/lib.es6.d.ts"
+    ],
+    "compileOnSave": true,
+    "exclude": [
+        "typings/main.d.ts",
+        "typings/main"
+    ],
+    "files": [
+        "app/ts/index.ts"
+    ]
+}
+

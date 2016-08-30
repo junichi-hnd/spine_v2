@@ -1,0 +1,15 @@
+@import 'reset';
+@import '../helper/font-size-rem';
+@import '../helper/variables';
+html {
+  height: 100%;
+  background: $base-bg-color;
+}
+
+body {
+  @include font-rem(13);
+  background: $base-bg-color;
+  color: $base-text-color;
+  font-family: $base-font-sans-serif;
+  line-height: $base-line-height;
+}

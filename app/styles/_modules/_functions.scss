@@ -1,0 +1,38 @@
+@charset "utf-8";
+//------------------------------------------------------------------------
+// [ FUNCTION ]
+//------------------------------------------------------------------------
+
+//
+// @param {Number} $size change size
+// @param {Number} $opt cut number of decimal places
+//
+@function font_size_calc ($size, $opt: 1) {
+    $n: 1;
+    @for $i from 1 through $opt {
+        $n: $n * 10;
+    }
+    @return round(percentage($size / $font_base_size) * $n) / $n;
+}
+
+
+//
+// @param {Number} $num
+//
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+
+//
+// @param {Number} $px
+// @param {Number} $base
+//
+@function calc-em($px, $base: 14) {
+  $px: strip-unit($px);
+  $base: strip-unit($base);
+  @if $px == 1 {
+    @return 0.0725em;
+  }
+  @return ($px / $base) * 1em;
+}

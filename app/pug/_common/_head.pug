@@ -1,0 +1,26 @@
+meta(charset='UTF-8')
+if spMode === false
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+title=data.title
+
+// keywords-description
+meta(name='description', content=data.description)
+meta(name='keywords', content=data.keyword)
+
+// meta
+if spMode === true
+    meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1')
+    meta(name='format-detection', content='telephone=no')
+
+meta(name='author', content=author)
+link(rel='start', href=baseUrl, title='Home')
+link(rel='canonical', href=baseUrl)
+
+// favicon / apple-touch-icon
+include _icon
+
+// Open Graph
+include _og
+
+// css
+include _css

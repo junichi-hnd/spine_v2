@@ -1,0 +1,105 @@
+@charset "utf-8";
+// =============================================================
+// config
+// =============================================================
+
+
+
+//------------------------------------
+// [ $PATH ]
+//------------------------------------
+$img_path:  "../img/" !default;
+
+
+
+
+//------------------------------------
+// [ FLAG ]
+//------------------------------------
+$is_reset  : true  !default;
+$has_print : false !default;
+
+
+
+
+//----------------------------------------------------
+// [ font ]
+//----------------------------------------------------
+
+
+
+// family
+// -------------------------
+$sans-serif: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "Meiryo", verdana, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+$sans: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+$font_family: $sans;
+$font_sub: $sans-serif;
+
+
+
+
+// size
+// -------------------------
+$font_base_size: 12;
+$border_radius_size: 2px;
+
+
+
+//----------------------------------------------------
+// [ color ]
+//----------------------------------------------------
+
+
+
+// gray scale
+// -------------------------
+$black       : #000 !default;
+$grayDarker  : #222 !default;
+$grayDark    : #333 !default;
+$gray        : #555 !default;
+$grayLight   : #999 !default;
+$grayLighter : #eee !default;
+$white       : #fff !default;
+
+
+
+//----------------------------------------------------
+// [ theme ]
+//----------------------------------------------------
+$theme_primary     : #000   !default;
+$theme_base        : $white    !default;
+$theme_weak        : #494949   !default;
+$theme_font_base   : $grayDark !default;
+$theme_font_sub    : $white    !default;
+
+
+
+
+// link color
+// -------------------------
+$link_link:    $theme_font_base !default;
+$link_visited: $theme_font_base !default;
+$link__hover:  $theme_font_base !default;
+$link_active:  $theme_font_base !default;
+
+
+
+//----------------------------------------------------
+//  [ display ]
+//----------------------------------------------------
+$window_max: 100%;
+$window_min: 960px;
+
+
+//----------------------------------------------------
+//  [ animation ]
+//----------------------------------------------------
+$transition: all .4s cubic-bezier(.390, .575, .565, 1.000);
+
+
+//----------------------------------------------------
+//  [ contents ]
+//----------------------------------------------------
+$CONTENTS_WIDTH: 768;
+$CONTENTS_HEIGHT: 1024;
+$PX: 'px';

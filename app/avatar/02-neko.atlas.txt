@@ -1,0 +1,104 @@
+
+02-neko.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_left01a
+  rotate: false
+  xy: 240, 76
+  size: 80, 240
+  orig: 80, 240
+  offset: 0, 0
+  index: -1
+arm_right01a
+  rotate: false
+  xy: 320, 90
+  size: 80, 240
+  orig: 80, 240
+  offset: 0, 0
+  index: -1
+base_body01a
+  rotate: false
+  xy: 778, 760
+  size: 124, 256
+  orig: 124, 256
+  offset: 0, 0
+  index: -1
+base_head01a
+  rotate: false
+  xy: 586, 806
+  size: 192, 210
+  orig: 192, 210
+  offset: 0, 0
+  index: -1
+breast_accessory01a
+  rotate: false
+  xy: 586, 706
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+costume01a
+  rotate: false
+  xy: 276, 330
+  size: 240, 376
+  orig: 240, 376
+  offset: 0, 0
+  index: -1
+face_brow01a
+  rotate: false
+  xy: 586, 776
+  size: 140, 30
+  orig: 140, 30
+  offset: 0, 0
+  index: -1
+face_eye01a
+  rotate: false
+  xy: 0, 0
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+face_mouth01a
+  rotate: false
+  xy: 516, 364
+  size: 40, 30
+  orig: 40, 30
+  offset: 0, 0
+  index: -1
+hair_accessory_back01a
+  rotate: false
+  xy: 276, 706
+  size: 310, 310
+  orig: 310, 310
+  offset: 0, 0
+  index: -1
+hair_back01a
+  rotate: false
+  xy: 0, 316
+  size: 276, 700
+  orig: 276, 700
+  offset: 0, 0
+  index: -1
+hair_front01a
+  rotate: false
+  xy: 0, 46
+  size: 240, 270
+  orig: 240, 270
+  offset: 0, 0
+  index: -1
+leg_left01a
+  rotate: false
+  xy: 516, 394
+  size: 90, 312
+  orig: 90, 312
+  offset: 0, 0
+  index: -1
+leg_right01a
+  rotate: false
+  xy: 902, 704
+  size: 90, 312
+  orig: 90, 312
+  offset: 0, 0
+  index: -1

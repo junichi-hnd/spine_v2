@@ -1,0 +1,52 @@
+// -------------------------------------------------------------------
+//  variable.scss
+// -------------------------------------------------------------------
+
+// Default Setting
+// -------------------------------------------------------------------
+$is-base-animation: false;
+$is-debug-mode: false;
+
+// Size
+// -------------------------------------------------------------------
+$site-width: 960px;
+$site-alpha: 600px;
+$break-point-desktop-wide: 1200px;
+$break-point-tablet: 768px;
+$break-point-mobile: 480px;
+
+$design-width: 0;
+$design-height: 0;
+
+// Font Setting
+// -------------------------------------------------------------------
+$base-font-size: 16;
+$base-font-family: 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+$base-font-family-mac: 'ヒラギノ角ゴ Pro W4', 'Hiragino Kaku Gothic Pro', 'Osaka', sans-serif;
+$base-line-height: 1.8;
+
+$base-font-sans-serif: Avenir, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Verdana, Roboto, '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Meiryo UI', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+$base-font-serif: 'Roboto Slab', Garamond, 'Times New Roman', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', 'HGS明朝E', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+
+// Web Font
+// -------------------------------------------------------------------
+
+// Color
+// -------------------------------------------------------------------
+
+//-------------------------------------------------- Base
+$base-text-color: #232323;
+$base-bg-color: #333;
+
+//-------------------------------------------------- Link
+$base-link-color: #ea6a00;
+$base-visited-color: $base-link-color;
+$base-hover-color: $base-link-color;
+$base-active-color: $base-link-color;
+
+// Image Path
+// -------------------------------------------------------------------
+$image-dir: '../images/';
+$image-common-dir: '#{$image-dir}common/';
+$image-top-dir: '#{$image-dir}top/';
